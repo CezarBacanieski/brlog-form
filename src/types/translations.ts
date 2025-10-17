@@ -1,0 +1,22 @@
+export type Translations = {
+  fullName: string;
+  email: string;
+  phone: string;
+  message: string;
+  contactTitle: string;
+  contactSubtitle: string;
+  notRobot: string;
+  sendButton: string;
+  sending: string;
+  successMessage: string;
+  errorMessage: string;
+  connectionError: string;
+  captchaAlert: string;
+  whatsappButton: string;
+  completeOperator: string;
+  completeOperatorEN: string;
+  namePlaceholder: string;
+  emailPlaceholder: string;
+  phonePlaceholder: string;
+  messageQuestion: string;
+};

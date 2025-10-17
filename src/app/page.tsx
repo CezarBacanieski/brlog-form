@@ -201,6 +201,16 @@ export default function Home() {
                   >
                     🇩🇪 DE
                   </button>
+                  <button
+                    onClick={() => setLanguage('zh')}
+                    className={`px-3.5 py-1.5 rounded-full font-medium text-sm transition-all duration-200 ${
+                      language === 'zh'
+                        ? 'bg-white text-blue-600 shadow-md'
+                        : 'text-gray-600 hover:text-gray-900'
+                    }`}
+                  >
+                    🇨🇳 ZH
+                  </button>
                 </div>
               </div>
 

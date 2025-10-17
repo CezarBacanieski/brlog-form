@@ -191,6 +191,16 @@ export default function Home() {
                   >
                     🇺🇸 EN
                   </button>
+                  <button
+                    onClick={() => setLanguage('de')}
+                    className={`px-3.5 py-1.5 rounded-full font-medium text-sm transition-all duration-200 ${
+                      language === 'de'
+                        ? 'bg-white text-blue-600 shadow-md'
+                        : 'text-gray-600 hover:text-gray-900'
+                    }`}
+                  >
+                    🇩🇪 DE
+                  </button>
                 </div>
               </div>
 
